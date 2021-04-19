@@ -1,7 +1,8 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+/**
+ * Hack VM part 1
+ * Michael Outmesguine
+ * CS 3650.03 (S21)
+ * 4/18/21
  */
 package hackvm1;
 
@@ -12,14 +13,9 @@ import java.util.ArrayList;
 import java.util.Scanner;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-import javafx.stage.FileChooser;
-import javafx.stage.FileChooser.ExtensionFilter;
 import javax.swing.JFileChooser;
 
-/**
- *
- * @author Me
- */
+
 public class HackVM1 {
 
     static File fileIn; //("C:/Users/Me/Desktop/nand2tetris/nand2tetris/nand2tetris/projects/07/StackArithmetic/SimpleAdd.vm");
